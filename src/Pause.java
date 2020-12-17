@@ -34,6 +34,7 @@ public class Pause implements Initializable, Serializable {
             animateplay();animatesave();
         }
     };
+
     public void animateplay(){
         double X=play.getScaleX();
         if(X>=0.7)
